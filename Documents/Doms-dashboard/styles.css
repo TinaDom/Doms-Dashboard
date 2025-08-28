@@ -21,6 +21,12 @@ body {
     grid-row: 1;
     grid-column: 2;
     background-color: #ffffff;
+    display: grid;
+    /* This creates two columns: one for the search/user section and one for the buttons */
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding: 24px 48px;
+    gap: 24px;
 }
 
 .main-content {
@@ -48,3 +54,43 @@ body {
     font-size: 1.25rem;
     color: white;
 }
+
+.search-and-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+button {
+    padding: 8px 24px;
+    border: none;
+    border-radius: 999px; /*this is a pill shape*/
+    background-color: #1e90ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer; /*this shows the finger when curser is on it*/
+
+}
+
+input[type="text"] {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    width: 300px;
+
+}
+
+
