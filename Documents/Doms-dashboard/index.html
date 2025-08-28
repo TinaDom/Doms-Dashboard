@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Dom's Anime Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="sidebar">
         <div class="logo">
             <img src="https://placehold.co/40x40/000000/FFFFFF" alt="Logo">
-            <h1>Dashboard</h1>
+            <h1>Otaku Merch</h1>
         </div>
         <div class="nav">
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li><i class="fas fa-home"></i> Dashboard</li>
+                <li><i class="fas fa-box"></i> Product Catalog</li>
+                <li><i class="fas fa-shopping-cart"></i> Customer Orders</li>
+                <li><i class="fas fa-chart-line"></i> Sales Analytics</li>
+                <li><i class="fas fa-warehouse"></i> Inventory</li>
+                <li><i class="fas fa-bullhorn"></i> Marketing</li>
             </ul>
         </div>
     </div>
@@ -32,31 +36,62 @@
                 <p>Hi there,</p>
                 <p>Dominic Kunaka (@dominic)</p>
             </div>
-
         </div>
         <div class="action-buttons">
-            <button>New</button>
-            <button>Upload</button>
+            <button>New Product</button>
+            <button>Upload listing</button>
             <button>Share</button>
         </div>
     </div>
     <div class="main-content">
         <div class="projects-section">
-            <h2>Your Projects</h2>
+            <h2>Current Projects</h2>
             <div class="project-grid">
-              
+                <div class="project-card">
+                    <h3>Project: New Merch Line Analytics</h3>
+                    <p>Analyse Key performance metrics for new "Attack on titan" merchandise line</p>
+                    <div class="card-actions">
+                        <i class="far fa-star"></i>
+                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Project: Dom's AI</h3>
+                    <p>Engineer a new A.I. to predict consumer demand for upcoming anime seasons and trends.</p>
+                    <div class="card-actions">
+                        <i class="far fa-star"></i>
+                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-code-branch"></i> 
+                    </div>
+                </div>
             </div>
         </div>
         <div class="announcements-trending">
             <div class="announcements">
-                <h2>Announcements</h2>
-
+                <h2>Company Announcements</h2>
+                <div class="announcement-item">
+                    <h4>New Product Drop</h4>
+                    <p>The "Jujutsu Kaisen" figure collection is now live. Please review the new listings.</p>
+                </div>
+                <div class="announcement-item">
+                    <h4>Warehouse Maintenance</h4>
+                    <p>All warehouse systems will be undergoing mandatory maintenance this Friday at midnight.</p>
+                </div>
             </div>
-                <div class="trending">
-                    <h2>Trending</h2>
-
+            <div class="trending">
+                <h2>Trending Products</h2>
+                <div class="trending-item">
+                    <p>@hokage.figure</p>
+                    <p>Master of Cloud-Based Sales</p>
+                </div>
+                <div class="trending-item">
+                    <p>@levi.tshirt</p>
+                    <p>Most Popular Collectible of the Week</p>
+                </div>
             </div>
         </div>
     </div>
 </body>
 </html>
+
